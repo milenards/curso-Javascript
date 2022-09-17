@@ -13,7 +13,7 @@ console.log(nome1)
 //constantes
 const sobrenome = "rodrigues"
 console.log(sobrenome)
-sobrenome = "jesus"
+//sobrenome = "rodrigues"
 
 //vamos usar
 let email = "contatomillenarodrigues20@gmail.com"
@@ -23,3 +23,6 @@ let n1 = 20
 let n2 = 10
 
 console.log(n1+n2)
+console.log(n1-n2)
+console.log(n1/n2)
+console.log(n1*n2)

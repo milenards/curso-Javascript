@@ -24,7 +24,7 @@ function multiplicar(){
 
 
 function dividir(){
-    let n1 = document.querySelector("#n1").value
+    let n1 = parseFloat (document.querySelector("#n1").value)
     let n2 = document.querySelector("#n2").value
     let resultado = n1 / n2 
     document.querySelector("#resultado").innerHTML = `<strong>${resultado}</strong>`
@@ -32,7 +32,7 @@ function dividir(){
 
 
 function somar(){
-    let n1 = document.querySelector("#n1").value
+    let n1 = parseFloat (document.querySelector("#n1").value)
     let n2 = document.querySelector("#n2").value
     let resultado = n1 + n2 
     document.querySelector("#resultado").innerHTML = `<strong>${resultado}</strong>`

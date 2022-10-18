@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(255, 178, 62);
+}
+main .titulo{
+    font-size: 45px;
+    text-align: center;
+}
+lista-pokemon{
+    color: aqua;
+}
